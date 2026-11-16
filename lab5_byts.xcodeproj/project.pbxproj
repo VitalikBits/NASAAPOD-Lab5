@@ -14,6 +14,10 @@
 		A19DAA7030AB05670020B410 /* lab5_bytsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19DAA6F30AB05670020B410 /* lab5_bytsTests.swift */; };
 		A19DAA7A30AB05670020B410 /* lab5_bytsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19DAA7930AB05670020B410 /* lab5_bytsUITests.swift */; };
 		A19DAA7C30AB05670020B410 /* lab5_bytsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19DAA7B30AB05670020B410 /* lab5_bytsUITestsLaunchTests.swift */; };
+		A19DAA8930AB067F0020B410 /* APODEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19DAA8830AB067F0020B410 /* APODEntry.swift */; };
+		A19DAA8B30AB07970020B410 /* NASAAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19DAA8A30AB07970020B410 /* NASAAPIService.swift */; };
+		A19DAA8D30AB0A3C0020B410 /* APODViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19DAA8C30AB0A3C0020B410 /* APODViewModel.swift */; };
+		A19DAA8F30AB0C8C0020B410 /* APODDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19DAA8E30AB0C8C0020B410 /* APODDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		A19DAA7530AB05670020B410 /* lab5_bytsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lab5_bytsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A19DAA7930AB05670020B410 /* lab5_bytsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab5_bytsUITests.swift; sourceTree = "<group>"; };
 		A19DAA7B30AB05670020B410 /* lab5_bytsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab5_bytsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A19DAA8830AB067F0020B410 /* APODEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODEntry.swift; sourceTree = "<group>"; };
+		A19DAA8A30AB07970020B410 /* NASAAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAAPIService.swift; sourceTree = "<group>"; };
+		A19DAA8C30AB0A3C0020B410 /* APODViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODViewModel.swift; sourceTree = "<group>"; };
+		A19DAA8E30AB0C8C0020B410 /* APODDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				A19DAA5E30AB05650020B410 /* lab5_bytsApp.swift */,
 				A19DAA6030AB05650020B410 /* ContentView.swift */,
+				A19DAA8830AB067F0020B410 /* APODEntry.swift */,
+				A19DAA8A30AB07970020B410 /* NASAAPIService.swift */,
+				A19DAA8E30AB0C8C0020B410 /* APODDetailView.swift */,
+				A19DAA8C30AB0A3C0020B410 /* APODViewModel.swift */,
 				A19DAA6230AB05670020B410 /* Assets.xcassets */,
 				A19DAA6430AB05670020B410 /* Preview Content */,
 			);
@@ -257,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19DAA8D30AB0A3C0020B410 /* APODViewModel.swift in Sources */,
+				A19DAA8F30AB0C8C0020B410 /* APODDetailView.swift in Sources */,
 				A19DAA6130AB05650020B410 /* ContentView.swift in Sources */,
+				A19DAA8B30AB07970020B410 /* NASAAPIService.swift in Sources */,
+				A19DAA8930AB067F0020B410 /* APODEntry.swift in Sources */,
 				A19DAA5F30AB05650020B410 /* lab5_bytsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
